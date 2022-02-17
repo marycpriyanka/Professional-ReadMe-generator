@@ -16,7 +16,7 @@ This is a command line application to generate a professional and high quality R
 
 ## Installation
 
-To install the dependencies (Inquirer), run 'npm install' in your command line. Then, to invoke the application, use the command 'node index.js'.
+To install the dependencies (Inquirer package), run 'npm install' in your command line. Then, to invoke the application, use the command 'node index.js'.
 
 ## Usage
 
@@ -30,8 +30,7 @@ Professional README generator is available under the MIT License.
 
 Contributions and ideas are welcome. Before submitting an issue, please take a moment to look over the contributing guidelines in https://www.contributor-covenant.org/ . Before submitting pull requests, ensure the following:
 1. Fork the repo and create your branch from master.
-2. If you've added code that should be tested, add tests.
-3. Ensure the test suite passes.
+2. Test your code.
 
 ## Tests
 
