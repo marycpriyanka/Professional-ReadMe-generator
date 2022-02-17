@@ -20,7 +20,7 @@ To install the dependencies (Inquirer), run 'npm install' in your command line. 
 
 ## Usage
 
-When the application is invoked, user will be prompted with some questions about the project. Answer the questions correctly. After all questions are answered, the README file will be generated based on user input. If README.md is generated successfully, a message 'Successfully created ReadMe file!' will be logged to the terminal. Look for the README file created in the folder.
+When the application is invoked, user will be prompted with some questions about the project. Answer the questions correctly. After all questions are answered, the README file will be generated based on user input. If README.md is generated successfully, a message 'Successfully created ReadMe file!' will be logged to the terminal. When you see the success message, look for the README file created in the folder.
 
 ## License
 
