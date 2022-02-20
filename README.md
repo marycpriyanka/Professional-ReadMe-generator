@@ -40,10 +40,6 @@ Contributions and ideas are welcome. Before submitting an issue, please take a m
 1. Fork the repo and create your branch from master.
 2. Test your code.
 
-## Tests
-
-
-
 ## Questions
 
 https://github.com/marycpriyanka
