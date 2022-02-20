@@ -28,9 +28,7 @@ Professional README generator is available under the MIT License.
 
 ## How to Contribute
 
-Contributions and ideas are welcome. Before submitting an issue, please take a moment to look over the contributing guidelines in https://www.contributor-covenant.org/ . Before submitting pull requests, ensure the following:
-1. Fork the repo and create your branch from master.
-2. Test your code.
+Contributions and ideas are welcome. Before submitting an issue, please take a moment to look over the contributing guidelines in https://www.contributor-covenant.org/ .
 
 ## Tests
 
