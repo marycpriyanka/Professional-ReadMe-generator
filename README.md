@@ -11,7 +11,7 @@ This is a command line application to generate a professional and high quality R
 - [Usage](#usage)
 - [License](#license)
 - [How to Contribute](#how-to-contribute)
-- [Tests](#tests)
+- [Technologies used](#technologies-used)
 - [Questions](#questions)
 
 ## Installation
@@ -35,6 +35,10 @@ For more information on how to use this application, watch the video in this lin
 ## License
 
 Professional README generator is available under the MIT License.
+
+## Technologies used
+
+Node.js, Inquirer package
 
 ## How to Contribute
 
