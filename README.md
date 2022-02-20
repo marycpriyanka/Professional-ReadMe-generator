@@ -30,6 +30,8 @@ After all questions are answered, the README file will be generated based on use
 
 When you see the success message, look for the README file created in the folder.
 
+For more information on how to use this application, watch the video in this link: https://drive.google.com/file/d/1khrnrP8vWFpmmk2K3nGGcwlKRaTXaUhh/view?usp=sharing
+
 ## License
 
 Professional README generator is available under the MIT License.
