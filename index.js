@@ -1,6 +1,8 @@
+// Imports File System and Inquirer package
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+// Creates the README text
 const createReadMeText = (title, description, installation, usage, license, contribution, test, username, email) => {
     const badge = `https://img.shields.io/badge/${license}-blue.svg`;
     license = license.replace("-", " ");
@@ -100,7 +102,8 @@ inquirer.prompt([
     }
 ]).then (function (response) {
     const readMeText = createReadMeText(response.title, response.description, response.installation, response.usage, response.license, 
-        response.contribution, response.test, response.username, response.email);
+        response.contribution, response.test, response.username, response.email);   
+    // Writes the text in README.md file
     fs.writeFile("README.md", readMeText, err => {
         if (err) {
             console.log(err);
