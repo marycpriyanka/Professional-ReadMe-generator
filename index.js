@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 // Creates the README text
-const createReadMeText = (title, description, installation, usage, license, contribution, test, username, email) => {
+const createReadMeText = (title, description, installation, usage, technologies, license, contribution, test, username, email) => {
     const badge = `https://img.shields.io/badge/${license}-blue.svg`;
     license = license.replace("-", " ");
     license = license.replace("_", " ");
@@ -18,6 +18,7 @@ ${description}
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Technologies used](#technologies-used)
 - [License](#license)
 - [How to Contribute](#how-to-contribute)
 - [Tests](#tests)
@@ -30,6 +31,10 @@ ${installation}
 ## Usage
 
 ${usage}
+
+##  Technologies used
+
+${technologies}
 
 ## License
 
@@ -73,6 +78,11 @@ inquirer.prompt([
         name: "usage"
     },
     {
+        message: "What are the technologies used?",
+        type: "input",
+        name: "technologies"
+    },
+    {
         message: "What are the contribution guidelines?",
         type: "input",
         name: "contribution"
@@ -101,7 +111,7 @@ inquirer.prompt([
         name: "email"
     }
 ]).then (function (response) {
-    const readMeText = createReadMeText(response.title, response.description, response.installation, response.usage, response.license, 
+    const readMeText = createReadMeText(response.title, response.description, response.installation, response.usage, response.technologies, response.license, 
         response.contribution, response.test, response.username, response.email);   
     // Writes the text in README.md file
     fs.writeFile("README.md", readMeText, err => {
